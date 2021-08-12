@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroup"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtdiemso"
+        android:layout_width="131dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="điểm số : 100"
+        android:textColor="#ff0000"
+        android:textSize="30sp"
+
+        />
+    <TextView
+
+        android:id="@+id/ten"
+        android:gravity="center"
+        android:layout_below="@+id/txtdiemso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cuộc đua kì thú "
+        android:textSize="50sp"
+        android:textColor="#f00000"
+        />
+  <Button
+      android:layout_below="@+id/ten"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnbatdau"
+      android:text="Bắt Đầu"
+      android:layout_centerHorizontal="true"/>
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"/>
+
+    <SeekBar
+
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@drawable/jigglypuff"
+        android:id="@+id/sb1"
+        android:layout_marginBottom="10dp"
+         android:layout_marginLeft="20dp"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+       android:layout_toRightOf="@+id/cb1"
+        android:layout_alignBottom="@id/cb1"
+
+       />
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        />
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@drawable/pikachu"
+        android:id="@+id/sb2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cb2"
+        android:layout_alignBottom="@id/cb2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"/>
+
+   <CheckBox
+       android:id="@+id/cb3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/cb2"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="40dp"
+       />
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@drawable/meowth"
+
+        android:id="@+id/sb3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cb3"
+        android:layout_alignBottom="@id/cb3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+
+</RelativeLayout>
